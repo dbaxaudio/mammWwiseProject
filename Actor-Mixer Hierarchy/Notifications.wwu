@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B85264A-5634-4F4A-8335-5D82622BDA44}" SchemaVersion="85" RootDocumentID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}">
+	<AudioObjects>
+		<WorkUnit Name="Notifications" ID="{0B85264A-5634-4F4A-8335-5D82622BDA44}" OwnerID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="CluePresent" ID="{533950C2-D153-435D-865B-6552C09462F0}" ShortID="1004607197">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="collect_item_14" ID="{B442559D-5670-4E6F-AD33-FC8552E0A427}" ShortID="1056715760">
+							<Language>SFX</Language>
+							<AudioFile>collect_item_14.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="collect_item_14" ID="{B442559D-5670-4E6F-AD33-FC8552E0A427}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ChooseEvent" ID="{9D6DD55B-E7E8-41EC-891B-6650D5AD1754}" ShortID="528497967">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="collect_item_hurry_out_of_time_01" ID="{F0A7C3E0-3413-41F7-B62A-A82C5B780A95}" ShortID="797789786">
+							<Language>SFX</Language>
+							<AudioFile>collect_item_hurry_out_of_time_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="collect_item_hurry_out_of_time_01" ID="{F0A7C3E0-3413-41F7-B62A-A82C5B780A95}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

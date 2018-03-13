@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{15278F69-66D2-4CCD-8187-29E93D9AA9FD}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{15278F69-66D2-4CCD-8187-29E93D9AA9FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{EEF5A42F-FD45-4C72-B5E8-B3A4FDD735B5}">
+					<ChildrenList>
+						<State Name="None" ID="{53B4F595-0BB5-480A-A3BC-05AFC70394E4}"/>
+						<State Name="Menu" ID="{8723DBBA-84FA-4C3E-93E6-0AD2193FB6E4}"/>
+						<State Name="Mingle" ID="{96C9314A-6E31-412A-BB01-AF6F3DC05B9B}"/>
+						<State Name="Search" ID="{B2F2AA4A-D0F5-419B-B51F-15849ACCA8C8}"/>
+						<State Name="Solve" ID="{268C4E94-454F-4995-9817-2059A79033F4}"/>
+						<State Name="Reveal" ID="{2CF3310D-02E5-4B4D-B2DA-187EF2927A68}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

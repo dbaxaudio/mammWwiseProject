@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62E51470-A8E5-4CF5-8FCF-92AD241E357F}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Environmental" ID="{62E51470-A8E5-4CF5-8FCF-92AD241E357F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footsteps" ID="{7A1F4795-751B-4250-89A9-CABB09636B5D}">
+					<ChildrenList>
+						<Action Name="" ID="{FECC3FE5-DD10-49F5-8E50-7A3AC33CD706}" ShortID="2617653">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepMaterial" ID="{4883A18B-799A-4CE4-91E2-3AAE4B36E11C}" WorkUnitID="{200ECC56-0DED-4E12-8AD6-7DC0A21DD0C0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

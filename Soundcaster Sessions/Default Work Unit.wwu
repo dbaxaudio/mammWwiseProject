@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E70D9AB-7B83-4769-98F8-1A793942E83F}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7E70D9AB-7B83-4769-98F8-1A793942E83F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="UI" ID="{9815D9BB-965D-41AA-A866-D3BC5BE1E22A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_ButtonHover" ID="{8664209D-3D1E-41CD-9AD3-75975FC02F3D}" WorkUnitID="{16A44843-2833-4C66-A323-99C08AB8D7BE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ButtonPressPositive" ID="{70A53FD9-2705-4597-B3EA-3A924321EC41}" WorkUnitID="{16A44843-2833-4C66-A323-99C08AB8D7BE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Deny" ID="{28123928-45CF-4855-859E-0AAC601E2ED0}" WorkUnitID="{16A44843-2833-4C66-A323-99C08AB8D7BE}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OtherHover" ID="{54EE2BEC-5388-42A2-BB40-55AFBF3F6BDE}" WorkUnitID="{16A44843-2833-4C66-A323-99C08AB8D7BE}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ButtonPressNegative" ID="{ECF7C832-0E17-4C3D-BA5D-BCECD1C6954E}" WorkUnitID="{16A44843-2833-4C66-A323-99C08AB8D7BE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButtonHover" ID="{4DEC0E0C-0064-40B1-8AEA-B99062231F4B}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButtonPressNegative" ID="{F9D4A402-4977-45BF-827E-BBC55F58F292}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OtherHover" ID="{8E415642-15A0-42F4-BF1B-AF79D3538A82}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButtonPressPositive" ID="{14C93DB5-C3F4-47F2-BC4D-3A9131DC1EF3}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Deny" ID="{3AAC9ED6-066E-453A-8A2D-64CC19F13E5F}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="UIVolume" ID="{84E3CFA0-8B4A-4B33-9345-1249FE76A46A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnvironmentalVolume" ID="{B7492CC7-0EAA-4B48-8831-773025CE814E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{135BE4F4-894C-4BFA-A9C9-F45F1899F944}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{F25C2974-044D-4F4C-B28D-02A159B5DB7B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Carpet" ID="{D1E3EA53-D621-4CA7-A82F-1795AABFC19B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{8E7B696B-ED51-48B2-A3B1-208FC44D430C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Search" ID="{8CEADE89-86B9-4201-984B-A805158E998B}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mingle" ID="{E00B1E6C-E5B5-4894-A8C6-18FAE3A84417}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="UIVolume" ID="{84E3CFA0-8B4A-4B33-9345-1249FE76A46A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnvironmentalVolume" ID="{B7492CC7-0EAA-4B48-8831-773025CE814E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{135BE4F4-894C-4BFA-A9C9-F45F1899F944}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{F25C2974-044D-4F4C-B28D-02A159B5DB7B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Lose" ID="{CFE174CD-1CA8-49C9-86A6-C672B0F2B741}"/>
+						<CurrentSwitchRef Name="Time_Running_Out" ID="{3E0174A3-FDE9-40B8-BD08-1A9011158E90}"/>
+						<CurrentSwitchRef Name="Reveal" ID="{087E54FF-7DF1-4CB2-A8D8-E29C8866CEBF}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{D1E3EA53-D621-4CA7-A82F-1795AABFC19B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

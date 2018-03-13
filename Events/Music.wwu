@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13A80535-2CFC-4B6F-8B7E-229225AA379A}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Music" ID="{13A80535-2CFC-4B6F-8B7E-229225AA379A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{5F578DB4-9A38-4081-84A1-F5B218B9ECCB}">
+					<ChildrenList>
+						<Action Name="" ID="{7ED4BB9A-60B3-4C06-90EA-184F6B75B921}" ShortID="244632913">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitchContainer" ID="{C61E7330-8BC8-42EE-A919-669DBC81DE07}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mingle_Music" ID="{691152D0-BA92-48BF-A2AC-2234924653E3}">
+					<ChildrenList>
+						<Action Name="" ID="{ED830754-1DFF-4D25-8A59-D8D154B897D9}" ShortID="1041088102">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mingle" ID="{E00B1E6C-E5B5-4894-A8C6-18FAE3A84417}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Search_Music" ID="{E89C2287-C4AA-49E5-8807-117595CF4F42}">
+					<ChildrenList>
+						<Action Name="" ID="{254DB675-B849-490D-AD5F-F64BEF1DE842}" ShortID="976253084">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Search" ID="{8CEADE89-86B9-4201-984B-A805158E998B}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Mingle_Music" ID="{21EE05FB-6E6F-44A8-B026-35A6FAB260F9}">
+					<ChildrenList>
+						<Action Name="" ID="{BE170533-E8DB-43A1-B92D-5870A7A58D15}" ShortID="469061260">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mingle" ID="{E00B1E6C-E5B5-4894-A8C6-18FAE3A84417}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Search_Music" ID="{59F20F6C-DAA1-42D2-8C6F-9C4F93D9940E}">
+					<ChildrenList>
+						<Action Name="" ID="{E62FF418-8D43-4E01-882B-D4672E706C8C}" ShortID="482465549">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Search" ID="{8CEADE89-86B9-4201-984B-A805158E998B}" WorkUnitID="{92BFFBE5-52FE-4658-988F-0355A88FD90A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

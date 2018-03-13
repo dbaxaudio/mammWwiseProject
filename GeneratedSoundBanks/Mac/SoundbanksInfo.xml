@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\Repos\mamm_wwise_ghub\</ProjectRoot>
+		<SourceFilesRoot>D:\Repos\mamm_wwise_ghub\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Repos\mamm_wwise_ghub\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Repos\mamm_wwise_ghub\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="479606568" Name="Play_ButtonHover" ObjectPath="\Events\UI\Play_ButtonHover"/>
+				<Event Id="3544092238" Name="Play_ButtonPressNegative" ObjectPath="\Events\UI\Play_ButtonPressNegative"/>
+				<Event Id="4023770702" Name="Play_ButtonPressPositive" ObjectPath="\Events\UI\Play_ButtonPressPositive"/>
+				<Event Id="2026541852" Name="Play_Deny" ObjectPath="\Events\UI\Play_Deny"/>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Environmental\Play_Footsteps"/>
+				<Event Id="3221360888" Name="Play_Mingle_Music" ObjectPath="\Events\Music\Play_Mingle_Music"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Music\Play_Music"/>
+				<Event Id="4218311186" Name="Play_OtherHover" ObjectPath="\Events\UI\Play_OtherHover"/>
+				<Event Id="3865059954" Name="Play_Search_Music" ObjectPath="\Events\Music\Play_Search_Music"/>
+				<Event Id="2563617370" Name="Stop_Mingle_Music" ObjectPath="\Events\Music\Stop_Mingle_Music" MaxAttenuation="0.000000"/>
+				<Event Id="3178974600" Name="Stop_Search_Music" ObjectPath="\Events\Music\Stop_Search_Music" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="13000789" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_FA035FF0.wem</Path>
+				</File>
+				<File Id="23718698" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-2.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="54657176" Language="SFX">
+					<ShortName>ButtonPress.wav</ShortName>
+					<Path>SFX\ButtonPress_1C9C67B2.wem</Path>
+				</File>
+				<File Id="68354891" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-5.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="91479392" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_8D828610.wem</Path>
+				</File>
+				<File Id="161586567" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_C8BE52A1.wem</Path>
+				</File>
+				<File Id="203653690" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_411F9947.wem</Path>
+				</File>
+				<File Id="204551506" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-3.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="230607155" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-8.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="288113101" Language="SFX">
+					<ShortName>flick_alert.wav</ShortName>
+					<Path>SFX\flick_alert_1C9C67B2.wem</Path>
+				</File>
+				<File Id="324385865" Language="SFX">
+					<ShortName>mus-mingle-1-segA.wav</ShortName>
+					<Path>SFX\mus-mingle-1-segA_F17FB28C.wem</Path>
+				</File>
+				<File Id="337346273" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-8.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="408896151" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_35E56380.wem</Path>
+				</File>
+				<File Id="413927261" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-3.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="439919290" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-1.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="440406864" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-2.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="470944159" Language="SFX">
+					<ShortName>mouse_over3.wav</ShortName>
+					<Path>SFX\mouse_over3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="570832869" Language="SFX">
+					<ShortName>jar_deny.wav</ShortName>
+					<Path>SFX\jar_deny_1C9C67B2.wem</Path>
+				</File>
+				<File Id="571616874" Language="SFX">
+					<ShortName>BGM.wav</ShortName>
+					<Path>SFX\BGM_F17FB28C.wem</Path>
+				</File>
+				<File Id="619488203" Language="SFX">
+					<ShortName>click_2.wav</ShortName>
+					<Path>SFX\click_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="628694250" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-5.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="638834908" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-6.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="640581454" Language="SFX">
+					<ShortName>mus-reveal-win-1.wav</ShortName>
+					<Path>SFX\mus-reveal-win-1_F17FB28C.wem</Path>
+				</File>
+				<File Id="663715058" Language="SFX">
+					<ShortName>mus-search-1-segA.wav</ShortName>
+					<Path>SFX\mus-search-1-segA_F17FB28C.wem</Path>
+				</File>
+				<File Id="685883689" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_CBFB663D.wem</Path>
+				</File>
+				<File Id="716547596" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_6958287A.wem</Path>
+				</File>
+				<File Id="799634406" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-4.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="806445328" Language="SFX">
+					<ShortName>mus-search-2-segC.wav</ShortName>
+					<Path>SFX\mus-search-2-segC_F17FB28C.wem</Path>
+				</File>
+				<File Id="806839371" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-7.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="842847153" Language="SFX">
+					<ShortName>fol-plyr-footstep-woodFloor-7.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-woodFloor-7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="851207642" Language="SFX">
+					<ShortName>mus-search-1-segB.wav</ShortName>
+					<Path>SFX\mus-search-1-segB_F17FB28C.wem</Path>
+				</File>
+				<File Id="916270867" Language="SFX">
+					<ShortName>mus-mingle-1-segB.wav</ShortName>
+					<Path>SFX\mus-mingle-1-segB_F17FB28C.wem</Path>
+				</File>
+				<File Id="927013794" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-1.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1003835082" Language="SFX">
+					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
+					<Path>SFX\Walking On Tile [SOUND EFFECT]_2873DEDD.wem</Path>
+				</File>
+				<File Id="1009205675" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-6.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1051256668" Language="SFX">
+					<ShortName>mus-reveal-lose.wav</ShortName>
+					<Path>SFX\mus-reveal-lose_F17FB28C.wem</Path>
+				</File>
+				<File Id="1052485719" Language="SFX">
+					<ShortName>fol-plyr-footstep-carpet-4.wav</ShortName>
+					<Path>SFX\fol-plyr-footstep-carpet-4_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

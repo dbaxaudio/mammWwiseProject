@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16A44843-2833-4C66-A323-99C08AB8D7BE}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="UI" ID="{16A44843-2833-4C66-A323-99C08AB8D7BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_OtherHover" ID="{54EE2BEC-5388-42A2-BB40-55AFBF3F6BDE}">
+					<ChildrenList>
+						<Action Name="" ID="{F0D2DD40-47B5-43ED-9440-07A82EBA11FF}" ShortID="148592431">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OtherHover" ID="{8E415642-15A0-42F4-BF1B-AF79D3538A82}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonPressPositive" ID="{70A53FD9-2705-4597-B3EA-3A924321EC41}">
+					<ChildrenList>
+						<Action Name="" ID="{4A0B3A88-5027-414B-BE37-A558D5FD7FB6}" ShortID="141672520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonPressPositive" ID="{14C93DB5-C3F4-47F2-BC4D-3A9131DC1EF3}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonHover" ID="{8664209D-3D1E-41CD-9AD3-75975FC02F3D}">
+					<ChildrenList>
+						<Action Name="" ID="{9B88256C-90F3-4E2E-841F-BB9833BA1F2F}" ShortID="863483267">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonHover" ID="{4DEC0E0C-0064-40B1-8AEA-B99062231F4B}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonPressNegative" ID="{ECF7C832-0E17-4C3D-BA5D-BCECD1C6954E}">
+					<ChildrenList>
+						<Action Name="" ID="{A5BB2884-3F8C-486E-827C-6EFF48C59E3A}" ShortID="865335548">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonPressNegative" ID="{F9D4A402-4977-45BF-827E-BBC55F58F292}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Deny" ID="{28123928-45CF-4855-859E-0AAC601E2ED0}">
+					<ChildrenList>
+						<Action Name="" ID="{6930D60F-6D13-4844-A918-DFA76F11A67C}" ShortID="393325806">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deny" ID="{3AAC9ED6-066E-453A-8A2D-64CC19F13E5F}" WorkUnitID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

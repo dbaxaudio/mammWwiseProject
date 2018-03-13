@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{9ED004F5-B79F-4BEC-880E-1363C6103EAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Deny" ID="{3AAC9ED6-066E-453A-8A2D-64CC19F13E5F}" ShortID="358570837">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>43</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="jar_deny" ID="{8BD3572E-56F1-4F2C-B439-848EF533EAEB}" ShortID="570832869">
+							<Language>SFX</Language>
+							<AudioFile>jar_deny.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="jar_deny" ID="{8BD3572E-56F1-4F2C-B439-848EF533EAEB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ButtonPressNegative" ID="{F9D4A402-4977-45BF-827E-BBC55F58F292}" ShortID="165402040">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="analogue_click" ID="{1BBBF281-A9C3-46C4-AD39-6460E28D7D78}" ShortID="834950236">
+							<Language>SFX</Language>
+							<AudioFile>analogue_click.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="flick_alert" ID="{7DC1D273-4D4F-4EAA-829B-C39CF8D36766}" ShortID="1032361961">
+							<Language>SFX</Language>
+							<AudioFile>flick_alert.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="288113101"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="flick_alert" ID="{7DC1D273-4D4F-4EAA-829B-C39CF8D36766}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ButtonHover" ID="{4DEC0E0C-0064-40B1-8AEA-B99062231F4B}" ShortID="191343614">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>24</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>580</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="mouse_over3" ID="{B691E4B5-1F6F-4687-9713-3ED41B7A462C}" ShortID="470944159">
+							<Language>SFX</Language>
+							<AudioFile>mouse_over3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="mouse_over3" ID="{B691E4B5-1F6F-4687-9713-3ED41B7A462C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ButtonPressPositive" ID="{14C93DB5-C3F4-47F2-BC4D-3A9131DC1EF3}" ShortID="341885981">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>230</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ButtonPressPositive" ID="{19F6A016-40E4-48BD-8A6C-0421FED88C21}" ShortID="54657176">
+							<Language>SFX</Language>
+							<AudioFile>ButtonPress.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ButtonPressPositive" ID="{19F6A016-40E4-48BD-8A6C-0421FED88C21}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="OtherHover" ID="{8E415642-15A0-42F4-BF1B-AF79D3538A82}" ShortID="278851956">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3CFCF71-CBA1-48A0-95B3-FB200D08E089}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{3B8F8746-E249-42F6-B545-293E047FF978}" WorkUnitID="{352E25A5-FB52-4C76-ACC2-FCFEDF66B417}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="click_2" ID="{E12ADD12-3FE8-476B-A543-84232AA1B958}" ShortID="619488203">
+							<Language>SFX</Language>
+							<AudioFile>click_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="click_2" ID="{E12ADD12-3FE8-476B-A543-84232AA1B958}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<WorkUnit Name="Notifications" ID="{0B85264A-5634-4F4A-8335-5D82622BDA44}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

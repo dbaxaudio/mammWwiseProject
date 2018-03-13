@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9DEE6ED-6384-4EAF-B198-62175E94E2AC}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{F9DEE6ED-6384-4EAF-B198-62175E94E2AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="FootstepMaterial" ID="{2838CF0F-32F4-4BF7-8965-48AD55803B95}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Carpet" ID="{D1E3EA53-D621-4CA7-A82F-1795AABFC19B}"/>
+						<Switch Name="Wood" ID="{193BD0E3-3A3F-4513-B2B1-2DC491FE189F}"/>
+						<Switch Name="Tiles" ID="{5913F480-01C7-4D58-B1DE-613008A1252C}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Search" ID="{464CA971-56A6-4845-A21D-421C1120FDD4}">
+					<ChildrenList>
+						<Switch Name="Normal" ID="{FB9CDEBD-F3A5-4B00-AAF0-262191AB6F94}"/>
+						<Switch Name="Time_Running_Out" ID="{6EBD1F6F-997F-456E-AD94-73E52ADFE5F2}"/>
+						<Switch Name="Solve" ID="{40F512C6-C363-4F7F-9CD5-45E8D2964A9E}"/>
+						<Switch Name="Reveal" ID="{087E54FF-7DF1-4CB2-A8D8-E29C8866CEBF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Mingle" ID="{63E08E91-75D2-47CB-BEB1-8DA64AE3E2D8}">
+					<ChildrenList>
+						<Switch Name="Normal" ID="{56381A1A-E634-49BE-906D-2772969BE7FB}"/>
+						<Switch Name="Time_Running_Out" ID="{3E0174A3-FDE9-40B8-BD08-1A9011158E90}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Reveal" ID="{EDBAF3D9-8407-45BB-A2E7-05852E2D90DC}">
+					<ChildrenList>
+						<Switch Name="Win" ID="{916C460F-F411-4ED8-8F59-E4A0FB27CE04}"/>
+						<Switch Name="Lose" ID="{CFE174CD-1CA8-49C9-86A6-C672B0F2B741}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

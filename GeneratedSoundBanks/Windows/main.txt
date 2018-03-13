@@ -1,0 +1,71 @@
+Event	ID	Name			Wwise Object Path	Notes
+	479606568	Play_ButtonHover			\UI\Play_ButtonHover	
+	2026541852	Play_Deny			\UI\Play_Deny	
+	2563617370	Stop_Mingle_Music			\Music\Stop_Mingle_Music	
+	2932040671	Play_Music			\Music\Play_Music	
+	3178974600	Stop_Search_Music			\Music\Stop_Search_Music	
+	3221360888	Play_Mingle_Music			\Music\Play_Mingle_Music	
+	3544092238	Play_ButtonPressNegative			\UI\Play_ButtonPressNegative	
+	3854155799	Play_Footsteps			\Environmental\Play_Footsteps	
+	3865059954	Play_Search_Music			\Music\Play_Search_Music	
+	4023770702	Play_ButtonPressPositive			\UI\Play_ButtonPressPositive	
+	4218311186	Play_OtherHover			\UI\Play_OtherHover	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3287431056	FootstepMaterial			\Default Work Unit\FootstepMaterial	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	FootstepMaterial			
+	2412606308	Carpet	FootstepMaterial			
+	3316001432	Tiles	FootstepMaterial			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	634183254	Reveal	GameState			
+	748895195	None	GameState			
+	794952550	Solve	GameState			
+	2607556080	Menu	GameState			
+	2982872551	Mingle	GameState			
+	3045815925	Search	GameState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13000789	Tile-Footstep	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_FA035FF0.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep		63188
+	23718698	fol-plyr-footstep-carpet-2	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-2		102776
+	54657176	ButtonPressPositive	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\ButtonPress_1C9C67B2.wem		\Actor-Mixer Hierarchy\UI\ButtonPressPositive		50912
+	68354891	fol-plyr-footstep-carpet-5	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-5		84852
+	91479392	Tile-Footstep_03	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_8D828610.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_03		63188
+	161586567	Tile-Footstep_07	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_C8BE52A1.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_07		92648
+	203653690	Tile-Footstep_04	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_411F9947.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_04		88440
+	204551506	fol-plyr-footstep-woodFloor-3	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-3		111564
+	230607155	fol-plyr-footstep-carpet-8	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-8		96144
+	288113101	ButtonPressNegative	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\flick_alert_1C9C67B2.wem		\Actor-Mixer Hierarchy\UI\ButtonPressNegative		36124
+	324385865	mus-mingle-1-segA	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-mingle-1-segA_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Mingle\mus-mingle-1-segA\mus-mingle-1-segA\mus-mingle-1-segA		14804676
+	337346273	fol-plyr-footstep-woodFloor-8	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-8		125320
+	408896151	Tile-Footstep_01	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_35E56380.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_01		84232
+	413927261	fol-plyr-footstep-carpet-3	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-3		94788
+	439919290	fol-plyr-footstep-woodFloor-1	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-1		120576
+	440406864	fol-plyr-footstep-woodFloor-2	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-2		140028
+	470944159	ButtonHover	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mouse_over3_1C9C67B2.wem		\Actor-Mixer Hierarchy\UI\ButtonHover		6364
+	570832869	Deny	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\jar_deny_1C9C67B2.wem		\Actor-Mixer Hierarchy\UI\Deny		214964
+	571616874	BGM	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\BGM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Menu\BGM		23217472
+	619488203	OtherHover	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\click_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\UI\OtherHover		303316
+	628694250	fol-plyr-footstep-woodFloor-5	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-5		94892
+	638834908	fol-plyr-footstep-woodFloor-6	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-6		111748
+	640581454	mus-reveal-win-1	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-reveal-win-1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Search\Reveal\mus-reveal-win-1\mus-reveal-win-1		2822464
+	663715058	mus-search-1-segA	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-search-1-segA_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Search\mus-search-1-segA\mus-search-1-segA\mus-search-1-segA		23284864
+	685883689	Tile-Footstep_05	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_CBFB663D.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_05		63188
+	716547596	Tile-Footstep_02	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_6958287A.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_02		65996
+	799634406	fol-plyr-footstep-woodFloor-4	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-4		122460
+	806445328	mus-search-2-segC	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-search-2-segC_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Search\music-solve-loop\mus-solve-2-segC\mus-search-2-segC		7056064
+	806839371	fol-plyr-footstep-carpet-7	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-7		112816
+	842847153	fol-plyr-footstep-woodFloor-7	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-woodFloor-7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Wood\fol-plyr-footstep-woodFloor-7		130552
+	851207642	mus-search-1-segB	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-search-1-segB_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Search\mus-search-1-segB\mus-search-1-segB		3880864
+	916270867	mus-mingle-1-segB	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-mingle-1-segB_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Mingle\mus-mingle-1-segB\mus-mingle-1-segB		5454396
+	927013794	fol-plyr-footstep-carpet-1	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-1		88664
+	1003835082	Tile-Footstep_06	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\Walking On Tile [SOUND EFFECT]_2873DEDD.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Tiles\Tile-Footstep_06		57580
+	1009205675	fol-plyr-footstep-carpet-6	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-6		91812
+	1051256668	mus-reveal-lose	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\mus-reveal-lose_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSwitchContainer\Search\Reveal\mus-reveal-lose\mus-reveal-lose		2822464
+	1052485719	fol-plyr-footstep-carpet-4	D:\Repos\mamm_wwise_ghub\.cache\Windows\SFX\fol-plyr-footstep-carpet-4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Environmental\FootstepMaterial\Carpet\fol-plyr-footstep-carpet-4		80168
+
