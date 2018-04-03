@@ -58,6 +58,10 @@
 					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
 					<Path>SFX\Walking On Tile [SOUND EFFECT]_C8BE52A1.wem</Path>
 				</File>
+				<File Id="170771688" Language="SFX">
+					<ShortName>mus-search-reveal-lose.wav</ShortName>
+					<Path>SFX\mus-search-reveal-lose_F17FB28C.wem</Path>
+				</File>
 				<File Id="203653690" Language="SFX">
 					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
 					<Path>SFX\Walking On Tile [SOUND EFFECT]_411F9947.wem</Path>
@@ -90,6 +94,10 @@
 					<ShortName>fol-plyr-footstep-carpet-3.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-carpet-3_1C9C67B2.wem</Path>
 				</File>
+				<File Id="421687523" Language="SFX">
+					<ShortName>mus-search-reveal-win.wav</ShortName>
+					<Path>SFX\mus-search-reveal-win_F17FB28C.wem</Path>
+				</File>
 				<File Id="439919290" Language="SFX">
 					<ShortName>fol-plyr-footstep-woodFloor-1.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-woodFloor-1_1C9C67B2.wem</Path>
@@ -102,13 +110,17 @@
 					<ShortName>mouse_over3.wav</ShortName>
 					<Path>SFX\mouse_over3_1C9C67B2.wem</Path>
 				</File>
+				<File Id="518500020" Language="SFX">
+					<ShortName>mus-search-solving.wav</ShortName>
+					<Path>SFX\mus-search-solving_F17FB28C.wem</Path>
+				</File>
 				<File Id="570832869" Language="SFX">
 					<ShortName>jar_deny.wav</ShortName>
 					<Path>SFX\jar_deny_1C9C67B2.wem</Path>
 				</File>
-				<File Id="571616874" Language="SFX">
-					<ShortName>BGM.wav</ShortName>
-					<Path>SFX\BGM_F17FB28C.wem</Path>
+				<File Id="596296715" Language="SFX">
+					<ShortName>mus-search-timeEnding.wav</ShortName>
+					<Path>SFX\mus-search-timeEnding_F17FB28C.wem</Path>
 				</File>
 				<File Id="619488203" Language="SFX">
 					<ShortName>click_2.wav</ShortName>
@@ -122,14 +134,6 @@
 					<ShortName>fol-plyr-footstep-woodFloor-6.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-woodFloor-6_1C9C67B2.wem</Path>
 				</File>
-				<File Id="640581454" Language="SFX">
-					<ShortName>mus-reveal-win-1.wav</ShortName>
-					<Path>SFX\mus-reveal-win-1_F17FB28C.wem</Path>
-				</File>
-				<File Id="663715058" Language="SFX">
-					<ShortName>mus-search-1-segA.wav</ShortName>
-					<Path>SFX\mus-search-1-segA_F17FB28C.wem</Path>
-				</File>
 				<File Id="685883689" Language="SFX">
 					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
 					<Path>SFX\Walking On Tile [SOUND EFFECT]_CBFB663D.wem</Path>
@@ -142,10 +146,6 @@
 					<ShortName>fol-plyr-footstep-woodFloor-4.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-woodFloor-4_1C9C67B2.wem</Path>
 				</File>
-				<File Id="806445328" Language="SFX">
-					<ShortName>mus-search-2-segC.wav</ShortName>
-					<Path>SFX\mus-search-2-segC_F17FB28C.wem</Path>
-				</File>
 				<File Id="806839371" Language="SFX">
 					<ShortName>fol-plyr-footstep-carpet-7.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-carpet-7_1C9C67B2.wem</Path>
@@ -154,17 +154,17 @@
 					<ShortName>fol-plyr-footstep-woodFloor-7.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-woodFloor-7_1C9C67B2.wem</Path>
 				</File>
-				<File Id="851207642" Language="SFX">
-					<ShortName>mus-search-1-segB.wav</ShortName>
-					<Path>SFX\mus-search-1-segB_F17FB28C.wem</Path>
-				</File>
-				<File Id="916270867" Language="SFX">
-					<ShortName>mus-mingle-1-segB.wav</ShortName>
-					<Path>SFX\mus-mingle-1-segB_F17FB28C.wem</Path>
+				<File Id="848512830" Language="SFX">
+					<ShortName>mus-mingle-2-segA.wav</ShortName>
+					<Path>SFX\mus-mingle-2-segA_F17FB28C.wem</Path>
 				</File>
 				<File Id="927013794" Language="SFX">
 					<ShortName>fol-plyr-footstep-carpet-1.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-carpet-1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="998877661" Language="SFX">
+					<ShortName>mus-search-normal.wav</ShortName>
+					<Path>SFX\mus-search-normal_F17FB28C.wem</Path>
 				</File>
 				<File Id="1003835082" Language="SFX">
 					<ShortName>Walking On Tile [SOUND EFFECT].wav</ShortName>
@@ -173,10 +173,6 @@
 				<File Id="1009205675" Language="SFX">
 					<ShortName>fol-plyr-footstep-carpet-6.wav</ShortName>
 					<Path>SFX\fol-plyr-footstep-carpet-6_1C9C67B2.wem</Path>
-				</File>
-				<File Id="1051256668" Language="SFX">
-					<ShortName>mus-reveal-lose.wav</ShortName>
-					<Path>SFX\mus-reveal-lose_F17FB28C.wem</Path>
 				</File>
 				<File Id="1052485719" Language="SFX">
 					<ShortName>fol-plyr-footstep-carpet-4.wav</ShortName>

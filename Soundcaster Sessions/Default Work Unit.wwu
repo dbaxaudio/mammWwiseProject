@@ -98,11 +98,13 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Solve" ID="{268C4E94-454F-4995-9817-2059A79033F4}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Lose" ID="{CFE174CD-1CA8-49C9-86A6-C672B0F2B741}"/>
 						<CurrentSwitchRef Name="Time_Running_Out" ID="{3E0174A3-FDE9-40B8-BD08-1A9011158E90}"/>
-						<CurrentSwitchRef Name="Reveal" ID="{087E54FF-7DF1-4CB2-A8D8-E29C8866CEBF}"/>
+						<CurrentSwitchRef Name="Solve" ID="{40F512C6-C363-4F7F-9CD5-45E8D2964A9E}"/>
 						<CurrentSwitchRef Name="Carpet" ID="{D1E3EA53-D621-4CA7-A82F-1795AABFC19B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
